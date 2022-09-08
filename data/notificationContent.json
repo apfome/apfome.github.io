@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "notificationType": "Game",
+    "alias": "game",
+    "value": [
+      {
+        "id": 1,
+        "subtype": "Start",
+        "fields": [
+          {
+            "fieldLabel": "Start Time",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "subtype": "Cancelled",
+        "fields": [
+          {
+            "fieldLabel": "Reason",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "subtype": "Delayed",
+        "fields": [
+          {
+            "fieldLabel": "Start Time",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "subtype": "End",
+        "fields": [
+          {
+            "fieldLabel": "Result [WON / LOST]",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Team Name",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Runs",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Wickets",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "notificationType": "Innings",
+    "alias": "innings",
+    "value": [
+      {
+        "id": 1,
+        "subtype": "End of First Innings",
+        "fields": [
+          {
+            "fieldLabel": "Team Name",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Runs",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Wickets",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Overs",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "subtype": "Second Innings Due to Start",
+        "fields": [
+          {
+            "fieldLabel": "Time",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "subtype": "Second Innings Started",
+        "fields": [
+          {
+            "fieldLabel": "Team Name",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Runs",
+            "type": "text"
+          },
+          {
+            "fieldLabel": "Overs",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "notificationType": "Match Start Information",
+    "alias": "innings",
+    "value": [
+      {
+        "id": 1,
+        "subtype": "Batting First",
+        "fields": [
+          {
+            "fieldLabel": "Team Name",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "subtype": "Bowling First",
+        "fields": [
+          {
+            "fieldLabel": "Team Name",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+]
